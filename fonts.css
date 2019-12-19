@@ -1,0 +1,118 @@
+/*--------------*/
+
+@font-face{
+    font-family:Abel;
+    src: url('./Abel-Regular.ttf');
+}
+
+
+/*--------------*/
+@font-face{
+    font-family:AmaticSC-Bold;
+    src: url('./AmaticSC-Bold.ttf');
+}
+
+@font-face{
+    font-family:AmaticSC-Regular;
+    src: url('./AmaticSC-Regular.ttf');
+}
+
+/*--------------*/
+@font-face{
+    font-family:Anton-Regular;
+    src: url('./Anton-Regular.ttf');
+}
+/*--------------*/
+@font-face{
+    font-family:DancingScript-VariableFont_wght;
+    src: url('./DancingScript-Regular.ttf');
+}
+
+
+/*--------------*/
+@font-face{
+    font-family:JosefinSans-Bold;
+    src: url('./JosefinSans-Bold.ttf');
+}
+@font-face{
+    font-family:JosefinSans-BoldItalic;
+    src: url('./JosefinSans-BoldItalic.ttf');
+}
+
+@font-face{
+    font-family:JosefinSans-Italic;
+    src: url('./JosefinSans-Italic.ttf');
+}
+@font-face{
+    font-family:JosefinSans-LightItalic;
+    src: url('./JosefinSans-LightItalic.ttf');
+}
+
+@font-face{
+    font-family:JosefinSans-Regular;
+    src: url('./JosefinSans-Regular.ttf');
+}
+@font-face{
+    font-family:JosefinSans-SemiBold;
+    src: url('./JosefinSans-SemiBold.ttf');
+}
+@font-face{
+    font-family:JosefinSans-SemiBoldItalic;
+    src: url('./JosefinSans-SemiBoldItalic.ttf');
+}
+@font-face{
+    font-family:BarCode;
+    src: url('./LibreBarcode39Text-Regular.ttf');
+}
+@font-face{
+    font-family:Space;
+    src: url('./SpaceMono-Regular.ttf');
+}
+/*--------------*/
+@font-face{
+    font-family:Livvic-Black;
+    src: url('./Livvic-Black.ttf');
+}
+
+@font-face{
+    font-family:Livvic-BlackItalic;
+    src: url('./Livvic-BlackItalic.ttf');
+}
+
+@font-face{
+    font-family:Livvic-BoldItalic;
+    src: url('./Livvic-BoldItalic.ttf');
+}
+
+@font-face{
+    font-family:Livvic-Regular;
+    src: url('./Livvic-Regular.ttf');
+}
+
+
+@font-face{
+    font-family:Lobster-Regular;
+    src: url('./Lobster-Regular.ttf');
+}
+/*--------------*/
+@font-face{
+    font-family:MaShanZheng-Regular;
+    src: url('./MaShanZheng-Regular.ttf');
+}
+
+/*--------------*/
+@font-face{
+    font-family:OpenSansCondensed-Bold;
+    src: url('./OpenSansCondensed-Bold.ttf');
+}
+
+@font-face{
+    font-family:OpenSansCondensed-Light;
+    src: url('./OpenSansCondensed-Light.ttf');
+}
+
+/*--------------*/
+@font-face{
+    font-family:Pacifico-Regular;
+    src: url('./Pacifico-Regular.ttf');
+}
