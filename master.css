@@ -214,9 +214,9 @@ main .blog{
   background: url('./Abract01.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
-  background-size: 75%;
+  background-size: 55%;
 }
 
 main .blog .blog-post{
@@ -257,17 +257,18 @@ section .container .owl-nav{
 
 }
 
-.owl-nav .owl-prev .owl-nav-prev,.owl-nav .owl-next .owl-nav-next{
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
   background: transparent;
   color:var(--text-grey);
   font-size: 2rem;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover{
+.owl-theme .owl-nav[class*='owl-']:hover{
   background: transparent;
   color:var(--text-grey);
 }
-.owl-theme .owl-nav [class*='owl-']{
+.owl-theme .owl-nav[class*='owl-']{
   outline: none;
 }
 
@@ -402,17 +403,17 @@ main .post-content .post-title a{
   font-size: 1.8rem;
 }
 
-.site-content .sidebar .newsletter{
+.site-content .posts .newsletter{
   padding-top:1rem ;
   font-family:var(--f20);
   padding-left: 2rem;
 }
 
-.site-content .sidebar .newsletter .form-element{
+.site-content .posts .newsletter .form-element{
   padding: 1rem 2rem;
 }
 
-.site-content .sidebar .newsletter .input-element{
+.site-content .posts .newsletter .input-element{
   width:80%;
   height: 1rem;
   padding: 1rem .5rem;
@@ -420,7 +421,7 @@ main .post-content .post-title a{
   font-size: 1rem;
 }
 
-.site-content .sidebar .newsletter .form-btn{
+.site-content .posts .newsletter .form-btn{
   border-radius: 0;
   padding:.8rem 32%;
   background: var(--sky);
@@ -442,7 +443,9 @@ footer.footer .container{
   grid-template-columns: 25% 25% 25% 25%;
   font-family:var(--f20);
 } 
-
+footer.footer .container .about-me p{
+  font-size: 0.8rem;
+}
 footer.footer .container>div{
   flex-grow: 1;
   flex-basis: 0;
@@ -490,6 +493,8 @@ footer.footer .move-up span:hover{
   color: var(--midnight);
   cursor: pointer;
 }
+
+
 /*----------------------Footer Close---------------------------*/
 
 
@@ -522,13 +527,13 @@ footer.footer .move-up span:hover{
 
 @media only screen and (max-width:768px){
   .nav .nav-items .nav-link{
-    padding:1.6rem .2rem;
-    font-size:1.4rem;
+    padding:1.3rem .2rem;
+    font-size:1.2rem;
     font-family: var(--f1);
   }
 
   .nav .nav-brand a{
-    font-size: 1.6rem;
+    font-size: .6rem;
     padding: 1rem 0.5rem;
     display: block;
     font-family:var(--f2) ;
@@ -538,6 +543,7 @@ footer.footer .move-up span:hover{
   .nav .social i{
     padding:0 .1rem;
     font-size: 1rem;
+    width: 40%;
   }
 
   main .site-content{
@@ -571,6 +577,7 @@ footer.footer .move-up span:hover{
 
   }
 }
+
 
 
 @media only screen and (max-width:1130px){
