@@ -531,6 +531,10 @@ footer.footer .move-up span:hover{
   }
 
   main .blog{
+    height:130vh;
+  }
+
+  main .blog{
     padding-bottom: 1rem;
   }
 
@@ -539,8 +543,12 @@ footer.footer .move-up span:hover{
 @media only screen and (max-width:768px){
   .nav .nav-items .nav-link{
     padding:1.6rem .2rem;
-    font-size:1.4rem;
+    font-size:1rem;
     font-family: var(--f1);
+  }
+
+  main .blog{
+    height:130vh;
   }
 
   .nav .nav-brand a{
@@ -553,7 +561,7 @@ footer.footer .move-up span:hover{
 
   .nav .social i{
     padding:0 .1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   main .site-content{
@@ -574,6 +582,10 @@ footer.footer .move-up span:hover{
     flex-direction: column;    
   }
 
+  main .blog{
+    height:130vh;
+  }
+
   .nav .toggle-collpase{
     display: initial;
   }
@@ -592,6 +604,10 @@ footer.footer .move-up span:hover{
 
 @media only screen and (max-width:984px){
   
+  main .blog{
+    height:130vh;
+  }
+
   main .site-content{
     grid-template-columns: 100%;
   }
