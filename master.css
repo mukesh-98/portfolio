@@ -604,6 +604,10 @@ footer.footer .move-up span:hover{
 
 @media only screen and (max-width:984px){
   
+  .nav .nav-menu, .nav .nav-items{
+    flex-direction: column;    
+  }
+
   main .blog{
     height:130vh;
   }
@@ -613,9 +617,9 @@ footer.footer .move-up span:hover{
   }
 
   nav .toggle-collpase{
-    width: 80%!important;
+    width: 10%!important;
   }
-
+  
 }
 
 @media only screen and (max-width:1130px){
