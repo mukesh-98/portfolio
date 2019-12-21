@@ -216,7 +216,7 @@ main .blog{
   background-position: right;
   height: 85vh;
   width: 100%;
-  background-size: 75%;
+  background-size: 55%;
 }
 
 main .blog .blog-post{
@@ -509,7 +509,7 @@ footer.footer .move-up span:hover{
 @media only screen and (max-width:520px){
 
   main .blog{
-    height:15vh;
+    height:130vh;
   }
 
   main .site-content .post-content > .post-image .post-info{
@@ -595,15 +595,13 @@ footer.footer .move-up span:hover{
     flex-direction: column;    
   }
 
-  .nav .toggle-collpase{
-    display: initial;
-  }
-
   main .site-content{
     grid-template-columns: 100%;
   }
 
- 
+  nav .toggle-collpase{
+    width: 80%!important;
+  }
 
 }
 
