@@ -1,4 +1,4 @@
-@import url('./fonts.css');
+@import url('../css/fonts.css');
 
 
 html,body{
@@ -177,7 +177,7 @@ justify-content: space-between;
 /*---------------------Main Content-----------------------*/
 /*---------------------Site title-----------------------*/
 main .site-title{
-  background: url('./Background-image.png');
+  background: url('../assets/Background-image.png');
   background-size: cover;
   height: 110vh;
   margin: 0rem;
@@ -211,12 +211,12 @@ main .site-title .btn:hover{
 /*---------------------Owl Carousel-----------------------*/
 
 main .blog{
-  background: url('./Abract01.png');
+  background: url('../assets/Abract01.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 85vh;
+  height: 100vh;
   width: 100%;
-  background-size: 55%;
+  background-size: 75%;
 }
 
 main .blog .blog-post{
@@ -257,18 +257,17 @@ section .container .owl-nav{
 
 }
 
-.owl-nav .owl-prev .owl-nav-prev,
-.owl-nav .owl-next .owl-nav-next{
+.owl-nav .owl-prev .owl-nav-prev,.owl-nav .owl-next .owl-nav-next{
   background: transparent;
   color:var(--text-grey);
   font-size: 2rem;
 }
 
-.owl-theme .owl-nav[class*='owl-']:hover{
+.owl-theme .owl-nav [class*='owl-']:hover{
   background: transparent;
   color:var(--text-grey);
 }
-.owl-theme .owl-nav[class*='owl-']{
+.owl-theme .owl-nav [class*='owl-']{
   outline: none;
 }
 
@@ -403,17 +402,17 @@ main .post-content .post-title a{
   font-size: 1.8rem;
 }
 
-.site-content .posts .newsletter{
+.site-content .sidebar .newsletter{
   padding-top:1rem ;
   font-family:var(--f20);
   padding-left: 2rem;
 }
 
-.site-content .posts .newsletter .form-element{
+.site-content .sidebar .newsletter .form-element{
   padding: 1rem 2rem;
 }
 
-.site-content .posts .newsletter .input-element{
+.site-content .sidebar .newsletter .input-element{
   width:80%;
   height: 1rem;
   padding: 1rem .5rem;
@@ -421,7 +420,7 @@ main .post-content .post-title a{
   font-size: 1rem;
 }
 
-.site-content .posts .newsletter .form-btn{
+.site-content .sidebar .newsletter .form-btn{
   border-radius: 0;
   padding:.8rem 32%;
   background: var(--sky);
@@ -443,9 +442,7 @@ footer.footer .container{
   grid-template-columns: 25% 25% 25% 25%;
   font-family:var(--f20);
 } 
-footer.footer .container .about-me p{
-  font-size: 0.8rem;
-}
+
 footer.footer .container>div{
   flex-grow: 1;
   flex-basis: 0;
@@ -493,8 +490,6 @@ footer.footer .move-up span:hover{
   color: var(--midnight);
   cursor: pointer;
 }
-
-
 /*----------------------Footer Close---------------------------*/
 
 
@@ -509,7 +504,7 @@ footer.footer .move-up span:hover{
 @media only screen and (max-width:520px){
 
   main .blog{
-    height:130vh;
+    height:125vh;
   }
 
   main .site-content .post-content > .post-image .post-info{
@@ -525,30 +520,11 @@ footer.footer .move-up span:hover{
   }
 }
 
-@media only screen and (max-width:284px){
-  main .site-content{
-    margin-top: 1rem;
-  }
-
-  main .blog{
-    height:130vh;
-  }
-
-  main .blog{
-    padding-bottom: 1rem;
-  }
-
-}
-
 @media only screen and (max-width:768px){
   .nav .nav-items .nav-link{
     padding:1.6rem .2rem;
-    font-size:1rem;
+    font-size:1.4rem;
     font-family: var(--f1);
-  }
-
-  main .blog{
-    height:130vh;
   }
 
   .nav .nav-brand a{
@@ -561,7 +537,7 @@ footer.footer .move-up span:hover{
 
   .nav .social i{
     padding:0 .1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   main .site-content{
@@ -580,10 +556,6 @@ footer.footer .move-up span:hover{
 @media only screen and (max-width:750px){
   .nav .nav-menu, .nav .nav-items{
     flex-direction: column;    
-  }
-
-  main .blog{
-    height:130vh;
   }
 
   .nav .toggle-collpase{
