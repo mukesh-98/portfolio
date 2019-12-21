@@ -214,7 +214,7 @@ main .blog{
   background: url('./Abract01.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   background-size: 75%;
 }
@@ -525,6 +525,17 @@ footer.footer .move-up span:hover{
   }
 }
 
+@media only screen and (max-width:284px){
+  main .site-content{
+    margin-top: 1rem;
+  }
+
+  main .blog{
+    padding-bottom: 1rem;
+  }
+
+}
+
 @media only screen and (max-width:768px){
   .nav .nav-items .nav-link{
     padding:1.6rem .2rem;
@@ -577,6 +588,24 @@ footer.footer .move-up span:hover{
   }
 }
 
+
+
+@media only screen and (max-width:984px){
+  .nav .nav-menu, .nav .nav-items{
+    flex-direction: column;    
+  }
+
+  .nav .toggle-collpase{
+    display: initial;
+  }
+
+  main .site-content{
+    grid-template-columns: 100%;
+  }
+
+ 
+
+}
 
 @media only screen and (max-width:1130px){
   main .site-content .post-content > .post-image .post-info{
